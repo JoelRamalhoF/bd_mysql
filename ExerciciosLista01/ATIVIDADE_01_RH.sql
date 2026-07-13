@@ -12,8 +12,8 @@ CREATE TABLE tb_colaboradores (
     PRIMARY KEY(id)
 );
 INSERT INTO tb_colaboradores(nome, cargo, email, salario)
-VALUES  ("Jota dos Santos", "Vendedor", "jota@empresa.com", 1890.80),
-		("Beatriz dos Santos", "Supervisor", "beatriz@empresa.com", 4190.60),
+VALUES  ('Jota dos Santos', 'Vendedor', 'jota@empresa.com', 1890.80),
+		('Beatriz dos Santos', 'Supervisor', 'beatriz@empresa.com', 4190.60),
         ('João Silva', 'Desenvolvedor Java', 'joao.silva@empresa.com', 4500.00),
 		('Maria Oliveira', 'Analista de RH', 'maria.oliveira@empresa.com', 3200.00),
 		('Carlos Santos', 'Assistente Administrativo', 'carlos.santos@empresa.com', 1800.00);
